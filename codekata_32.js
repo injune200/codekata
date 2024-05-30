@@ -18,7 +18,7 @@ function solution(s, n) {
             return arr2[index +n]
         }
     });
-    console.log(a.join(""))
+    return console.log(a.join(""))
 }
 
 solution("AB",1)

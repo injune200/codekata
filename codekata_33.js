@@ -1,5 +1,4 @@
 function solution(s) {
-    let answer = 0;
     
     s = s.replace(/zero/g, 0);
     s = s.replace(/one/g, 1);
@@ -12,8 +11,7 @@ function solution(s) {
     s = s.replace(/eight/g, 8);
     s = s.replace(/nine/g, 9);
     
-    answer = Number(s);
-    return console.log(answer);
+    return console.log(Number(s));
 }
 
 solution("one4seveneight")

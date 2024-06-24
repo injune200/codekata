@@ -6,9 +6,7 @@ function solution(ingredient) {
         a = false
         for (let element in order) {
             if (order[element] == 1) {
-                console.log("발동1")
                 if (order[Number(element) + 1] == 2 && order[Number(element) + 2] == 3 && order[Number(element) + 3] == 1) {
-                    console.log("발동")
                     order.splice(element, 4)
                     count++
                     a = true

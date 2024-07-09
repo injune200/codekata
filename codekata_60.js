@@ -7,6 +7,6 @@ function solution(citations) {
             break
         }
     }
-    console.log(count)
+    return console.log(count)
 }
 solution([3, 0, 6, 1, 5])

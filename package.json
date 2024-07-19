@@ -1,0 +1,12 @@
+{
+  "name": "codekata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/injune200/codekata.git",
+  "author": "injune200 <112794665+injune200@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "prettier": "^3.3.3"
+  }
+}
